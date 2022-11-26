@@ -3,11 +3,11 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = os.getenv("API_ID", "").strip()
-API_HASH = os.getenv("API_HASH", "").strip()
-BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
+API_ID = os.getenv("API_ID", "5994204").strip()
+API_HASH = os.getenv("API_HASH", "1c40c54693e2cdbe51f90a152ed1bd5f").strip()
+BOT_TOKEN = os.getenv("BOT_TOKEN", "5652528362:AAG-xCagZHev_am6OVV7C798eTcuRBSMcy8").strip()
 DATABASE_URL = os.getenv("DATABASE_URL", "").strip()
-MUST_JOIN = os.getenv("MUST_JOIN", "")
+MUST_JOIN = os.getenv("MUST_JOIN", "EsportBots")
 
 if not API_ID:
     print("No API_ID found. Exiting...")
